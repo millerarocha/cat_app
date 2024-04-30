@@ -1,0 +1,21 @@
+.mainContainer{
+    padding: 50px 10%;
+
+    .mainTitle{
+        font-size: 30px;
+        text-align: center;
+    }
+
+    .mainDescription{
+        font-size: 16px;
+        text-align: center;
+        color: grey;
+        margin-bottom: 40px;
+    }
+
+    .cardContainer{
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+        gap: 30px;
+    }
+}

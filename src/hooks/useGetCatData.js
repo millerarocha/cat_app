@@ -8,7 +8,7 @@ export const useGetCatData = () => {
 
   const fetchCatData = useCallback(async () => {
     try {
-      const queryParams = { limit: 12, has_breeds: 1 };
+      const queryParams = { limit: 20, has_breeds: 1 };
       const baseUrl = 'https://api.thecatapi.com/v1/images/search';
       const queryString = new URLSearchParams(queryParams).toString();
       const url = `${baseUrl}?${queryString}`;
@@ -29,8 +29,8 @@ export const useGetCatData = () => {
       setData(catData);
     } catch (error) {
       setError(error);
-    } finally {
-      setLoading(false);
+    } finally{
+      setLoading(false)
     }
   }, []);
 

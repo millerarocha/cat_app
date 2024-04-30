@@ -1,0 +1,26 @@
+.container {
+  display: flex;
+  flex-direction: column;
+  background-color: #ffffff;
+  border-radius: 8px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1);
+}
+
+.title {
+  padding: 20px 0;
+  font-size: 20px;
+  font-weight: bold;
+  text-align: center;
+  color: #333333;
+}
+
+.cardImage {
+  height: 200px;
+  width: auto;
+}
+
+.description {
+  padding: 20px;
+  font-size: 14px;
+  color: #666666;
+}

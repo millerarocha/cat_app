@@ -1,6 +1,7 @@
 import { useGetCatData } from './hooks/useGetCatData';
 import Card from './components/Card';
 import styles from './App.module.scss';
+import Loader from './components/Loader';
 
 function App() {
   const { data, loading } = useGetCatData();
@@ -14,7 +15,7 @@ function App() {
         you&apos;re a cat lover or simply appreciate their charm, Cat App offers a delightful experience to explore and
         enjoy these furry companions.
       </p>
-      {loading && <h1>Loading data...</h1>}
+      {loading && <Loader/> }
       <div className={styles.cardContainer}>
         {data?.map((cat) => (
           <Card cat={cat} key={cat.id} />

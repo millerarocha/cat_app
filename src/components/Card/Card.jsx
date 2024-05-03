@@ -1,5 +1,5 @@
 import PropTypes from 'prop-types';
-import { CatInfo } from '../../models/CatInfo';
+import { CatInfo } from '../../routes/tabs/Cats/models/CatInfo';
 import styles from './Card.module.scss';
 
 const Card = ({ cat }) => {

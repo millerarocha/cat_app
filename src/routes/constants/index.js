@@ -1,1 +1,1 @@
-export * from './PetApp.const'
+export * from './PetApp.const';

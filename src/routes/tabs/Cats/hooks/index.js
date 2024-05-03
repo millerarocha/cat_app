@@ -1,1 +1,1 @@
-export { default } from './useGetCatData'
+export { default } from './useGetCatData';

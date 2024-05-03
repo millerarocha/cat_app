@@ -1,1 +1,1 @@
-export { default } from './CardGallery'
+export { default } from './CardGallery';

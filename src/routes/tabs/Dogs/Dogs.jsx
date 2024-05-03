@@ -1,8 +1,5 @@
-
 const Dogs = () => {
-  return (
-    <div>Dogs</div>
-  )
-}
+  return <div>Dogs</div>;
+};
 
-export default Dogs
+export default Dogs;

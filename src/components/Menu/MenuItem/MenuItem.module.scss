@@ -1,0 +1,17 @@
+.item {
+  list-style-type: none;
+  padding: 10px;
+  text-align: center;
+  border-radius: 20px 0 0 20px;
+  color: black;
+  
+  &.selected{
+    background-color: #9CB8E8;
+    color: white;
+  }
+
+}
+
+.link {
+  text-decoration: none;
+}

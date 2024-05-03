@@ -1,21 +1,12 @@
-.mainContainer{
-    padding: 50px 10%;
-
-    .mainTitle{
-        font-size: 30px;
-        text-align: center;
-    }
-
-    .mainDescription{
-        font-size: 16px;
-        text-align: center;
-        color: grey;
-        margin-bottom: 40px;
-    }
-
-    .cardContainer{
-        display: grid;
-        grid-template-columns: repeat(5, 1fr);
-        gap: 30px;
-    }
+.mainContainer {
+  background: #6190e8; /* fallback for old browsers */
+  background: -webkit-linear-gradient(to right, #a7bfe8, #6190e8); /* Chrome 10-25, Safari 5.1-6 */
+  background: linear-gradient(
+    to right,
+    #a7bfe8,
+    #6190e8
+  ); /* W3C, IE 10+/ Edge, Firefox 16+, Chrome 26+, Opera 12+, Safari 7+ */
+  min-height: 100vh;
+  display: flex;
+  flex-direction: column;
 }
